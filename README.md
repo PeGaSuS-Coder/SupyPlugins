@@ -1,11 +1,10 @@
 # SupyPlugins
 
-[![Travis-CI Build Status](https://travis-ci.org/jlu5/SupyPlugins.svg?branch=master)](https://travis-ci.org/jlu5/SupyPlugins)
-![Supported Python versions](https://img.shields.io/badge/python-2.7-blue.svg)
+My collection of plugins for [Limnoria](https://github.com/ProgVal/Limnoria).
 
-My collection of plugins for [Limnoria](https://github.com/ProgVal/Limnoria). This repository is provided **AS IS**, **without any warranty**! It may glitch, break, or spontaneously combust at any time. You have been warned!
+## WARNING: THIS BRANCH IS END OF LIFE
 
-**This branch contains the legacy Python 2 branch for SupyPlugins, which will only receive maintenance updates.** Those wanting new features and plugins should migrate their bot to Python 3 and use the *master* branch, as Python 2 is EOL in 2020.
+**As Python 2 is EOL and Limnoria has dropped support for it, this branch is end of life as of March 2020**. Please migrate your bot to Python 3 and use the *master* branch instead.
 
 ## Installation
 The recommended way of fetching plugins in this repository is to clone the git repository:
@@ -13,14 +12,6 @@ The recommended way of fetching plugins in this repository is to clone the git r
 * `$ git clone https://github.com/jlu5/SupyPlugins`
 
 and add the folder to your bot's `config directories.plugins`.
-
-**You will need a working copy of [Limnoria](https://github.com/ProgVal/Limnoria) running on Python 2.7 or Python 3.4+.** Anything older will *not* work.
-
-If you are using a recent version of Limnoria's PluginDownloader, you can also fetch [individual plugins](#list-of-plugins) by running:
-
-* `install glolol-py2legacy <plugin>`
-
-on your bot.
 
 ## Support
 If you have any questions, concerns, or feature requests, feel free to submit an issue. Pull requests are welcome and appreciated.
